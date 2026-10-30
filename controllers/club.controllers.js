@@ -1,5 +1,5 @@
 
-import * as capaNegocioServicio from "../services/club.service"
+import * as capaNegocioServicio from "../services/club.service.js"
 
 //import { buscarClubes } from "../services/club.service"
 export const listarClubes = async (req, res, next) => {
